@@ -3,7 +3,6 @@
 }
 
 .caja1{
-   
     position: relative;
 }
 
@@ -23,11 +22,8 @@
 .estilo1{
     color: aliceblue;
     text-decoration:none;
+}
 
-}
-.estilo1 a:hover{
-    color: rgb(136, 240, 95);
-}
 #logo{
     position: absolute;
     top: 5%;
@@ -40,7 +36,10 @@
     color: white;
     left: 3%;
 }
-
+.pp{
+    font-family: serif;
+    color: rgb(92, 92, 92);
+}
 .medio1{
     display: flex;
     justify-content: center;
@@ -52,7 +51,8 @@
 #texto{
     position: absolute;
     top: 65%;
-    color: black;
+    font-family: 'Cantarell', sans-serif;
+    color: rgb(155, 155, 155);
     left: 41%;
     }
 
@@ -73,8 +73,9 @@
  #texto2{
     position: absolute;
     top: 106%;
-    color: black;
-    left: 40%;
+    color: rgb(155, 155, 155);
+    left: 37%;
+    font-family: 'Cantarell', sans-serif;
     }
 
 .venta{
@@ -82,14 +83,132 @@
         justify-content: center;
         padding-left: 20px;
         padding-right: -22px;
-        padding-top: 67px;
+        /* margin: 10px; */
+        padding-top: 78px;
     }
 
- .cajaventa{
+ .cajaventa1{
     text-align: left;
     border: 1px;
+    margin: 5px;
     border-style: solid;
     border-color: grey;
-    width: 318px;
+    border-radius: unset;
+    width: 350px;
+    height: 566px;
+    background-color: rgba(235, 230, 230, 0.952);
  }
 
+
+ .img{
+     height: 47%;
+     width: 100%;
+ }
+
+ .infor{
+    display: flex;
+
+ }
+ .iconos{
+     display: flex;
+     justify-content: space-between;
+     margin: 5px;
+     text-align: center;
+ }
+.iconos p{
+    text-align: center;
+    padding: 19px;
+}
+ .verde{
+     color: green;
+     font-size: 14px;
+     line-height: 34px;
+ }
+
+ .pp2{
+     font-size: 20px;
+     font-family: initial;
+     text-align: -webkit-center;
+ }
+.margen{
+    margin: 10px;
+}
+
+.cajaventa1 p{
+    margin: 1px;
+    line-height: 28px;
+}
+ .naranja{
+     color: white;
+     background-color: orange;
+     font-size: 14px;
+     text-align: center;
+     border: 0px;
+     padding: 18px 0px 19px;
+     width: 95%;
+     margin: 3%;
+     padding-top: 23px;
+}
+
+#pos{
+    width: 91%;
+    display: flex;
+    height: 51px;
+    margin: 10px;
+    justify-content: flex-end;
+}
+ /* FIN CAJA VENTAS */
+ .verdetotal{
+    background-color: green;
+    color: white;
+    text-align: center;
+    /* right: 50px; */
+    /* height: 51%; */
+    border: 0px;
+    PADDING: 0px 32px 0px;
+ }
+
+ /*COmienzo footer*/
+ .fin{
+     background-image: url(imagenes/encuentra.jpg);
+     height: 334px;
+     background-size: cover;
+     color: white;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+ }
+ #cajafooter{
+    width: 100%;
+    padding: 50px 50px;
+ }
+.fin p{
+    padding-bottom: 40px;
+    line-height: 61px;
+    font-size: 12px;
+    font-family: system-ui;
+}
+.fin h4{
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.naranjachico {
+    color: white;
+    background-color: orange;
+    text-align: right;
+    margin-top: -8px;
+    color: white;
+    padding: 10px 25px;
+    font-size: 15px;
+   
+}
+
+.finalfooter{
+    color: white;
+    width: 87%;
+    background-color: rgb(116, 115, 113);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 83px;
+
+}
